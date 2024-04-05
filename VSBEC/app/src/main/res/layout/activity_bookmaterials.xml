@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:visibility="visible"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:background="@drawable/book">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="20dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="250dp"
+            android:layout_height="57dp"
+
+            android:layout_marginLeft="80dp"
+            android:layout_marginBottom="50dp"
+            android:gravity="center"
+            android:text="Text Book's"
+            android:textColor="@color/black"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.043" />
+
+        <GridLayout
+            android:id="@+id/gridLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:columnCount="2"
+            android:paddingStart="40dp"
+
+            android:rowCount="3">
+
+            <Button
+                android:id="@+id/button45"
+                android:layout_width="145dp"
+                android:layout_height="111dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/biotamil"
+                android:text="Tamil"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.501"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.31" />
+
+            <Button
+                android:id="@+id/button36"
+                android:layout_width="145dp"
+                android:layout_height="111dp"
+                android:layout_marginLeft="35dp"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:background="@drawable/bioenglish"
+
+                android:layout_marginBottom="10dp"
+                android:onClick="bioenglish"
+                android:text="" />
+
+
+            <Button
+                android:id="@+id/button31"
+                android:layout_width="145dp"
+                android:layout_height="111dp"
+
+                android:layout_marginBottom="20dp"
+                android:textColor="@color/white"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:background="@drawable/biomath1"
+
+                android:onClick="biomathematics1"
+                android:text="Mathematics Vol-I"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.503"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.592" />
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="145dp"
+                android:layout_height="111dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginBottom="10dp"
+                android:onClick="biomathematicsvol2"
+                android:textColor="@color/white"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:background="@drawable/biomath2"
+
+                android:text="Mathematics Vol-II"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.505"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.695" />
+
+            <Button
+                android:id="@+id/button32"
+                android:layout_width="145dp"
+                android:layout_height="111dp"
+                android:layout_marginBottom="20dp"
+                android:onClick="biochem1"
+                android:text="Chemistry Vol-I"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:background="@drawable/chem1"
+
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.501"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.31" />
+
+            <Button
+                android:id="@+id/button35"
+                android:layout_width="145dp"
+                android:layout_height="111dp"
+                android:layout_marginBottom="10dp"
+                android:onClick="biochem2"
+                android:text="Chemistry Vol-II"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:background="@drawable/chem2"
+                android:layout_marginLeft="35dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.501"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.31" />
+
+            <Button
+                android:id="@+id/button37"
+                android:layout_width="145dp"
+                android:layout_height="111dp"
+                android:layout_marginBottom="20dp"
+                android:onClick="biophysics1"
+                android:text="Physics Vol-I"
+                android:textColor="@color/white"
+                android:textSize="26dp"
+                android:textStyle="bold"
+                android:background="@drawable/phy1"
+
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.501"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.31" />
+
+            <Button
+                android:id="@+id/button39"
+                android:layout_width="145dp"
+                android:layout_height="111dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/phy2"
+                android:onClick="biophy2"
+                android:text="Physics Vol-II"
+                android:textColor="@color/white"
+                android:textSize="27dp"
+                android:textStyle="bold"
+
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.501"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.31" />
+            <Button
+                android:id="@+id/button43"
+                android:layout_width="145dp"
+                android:layout_height="111dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/botany"
+                android:onClick="bota"
+                android:text="Botany"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:textStyle="bold"
+
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.501"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.31" />
+            <Button
+                android:id="@+id/button89"
+                android:layout_width="145dp"
+                android:layout_height="111dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/zoology"
+                android:onClick="biophy2"
+                android:text="Zoology"
+                android:textColor="@color/white"
+                android:textSize="25dp"
+                android:textStyle="bold"
+
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.501"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.31" />
+
+
+        </GridLayout>
+
+        <Button
+            android:id="@+id/button88"
+            android:layout_width="145dp"
+            android:layout_height="111dp"
+            android:layout_marginLeft="125dp"
+            android:background="@drawable/computer"
+            android:onClick="botany"
+            android:text="Computer Science"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.501"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.31" />
+
+
+        <Button
+            android:id="@+id/button38"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:onClick="home39"
+            android:text="Home"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.505"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.976" />
+    </LinearLayout>
+</ScrollView>
